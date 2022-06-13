@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageQueue.Sender", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageQueue.Receiver", "AzureStorageQueue.Receiver\AzureStorageQueue.Receiver.csproj", "{F3C5D7C8-3EAA-4CE2-BB95-6BCAA520E1B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageQueue.Model", "AzureStorageQueue.Model\AzureStorageQueue.Model.csproj", "{DCDF3944-3FF0-4EAA-9D58-772A2AD42021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3C5D7C8-3EAA-4CE2-BB95-6BCAA520E1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C5D7C8-3EAA-4CE2-BB95-6BCAA520E1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3C5D7C8-3EAA-4CE2-BB95-6BCAA520E1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDF3944-3FF0-4EAA-9D58-772A2AD42021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDF3944-3FF0-4EAA-9D58-772A2AD42021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDF3944-3FF0-4EAA-9D58-772A2AD42021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDF3944-3FF0-4EAA-9D58-772A2AD42021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
