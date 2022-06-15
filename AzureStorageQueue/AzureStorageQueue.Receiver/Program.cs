@@ -27,12 +27,15 @@ while (true)
     }
 
     var pizzaMsg = pizzaClient.ReceiveMessage();
+    //var pizzaMsg = pizzaClient.PeekMessage();
+
 
     if (pizzaMsg.Value != null)
     {
         Console.WriteLine($"Pizza {pizzaMsg.Value.Body}");
         var p = JsonSerializer.Deserialize<Pizza>(pizzaMsg.Value.Body);
         pizzaClient.DeleteMessage(pizzaMsg.Value.MessageId, pizzaMsg.Value.PopReceipt);
+        
     }
     else
     {
